@@ -27,7 +27,7 @@ while (Nturno != "salir") {
     console.log ( "Hora: " + Hturno);
     console.log ( "Costo total: " + costofinal)
     
-    alert ("Guardado con exito el turno de " + Nturno + " el dia " + TurnosDisp + "a la hora " + Hturno + " Muchas gracias!")
+    document.body.append ( " Guardado con exito el turno de" + Nturno + " el dia " + TurnosDisp + "a la hora " + Hturno + " Muchas gracias!")
     
     Nturno = prompt("Una vez registrado el turno escribir salir")
 }
