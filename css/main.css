@@ -1,0 +1,20 @@
+.cabeza {
+    background: #ff8400;
+}
+
+.dias {
+    font-family: 'Amatic SC', cursive;
+}
+
+.gt {
+    background: #ff8400;
+}
+
+h1 { 
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem !important;
+}
+
+input {
+    background: #ff840044;
+}

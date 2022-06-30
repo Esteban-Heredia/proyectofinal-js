@@ -1,17 +1,16 @@
-let Nturno = [];
-let TurnosDisp = [];
-let Hturno = [];
+const Nturno = [];
+const TurnosDisp = [];
+const Hturno = [];
+const salir = [];
 
 const boton = document.querySelector(".boton");
 
 boton.addEventListener("click",()=>{
-    while (Nturno != "salir") {
+    while (salir != "salir") {
         
-        Nturno = prompt ("A nombre de quien te gustaria reservar el turno?");
-
-        TurnosDisp = prompt ("¿De lunes a viernes que dia te gustaria el turno?")
+        TurnosDisp = prompt ("¿De lunes a viernes que dia te gustaria el turno?");
     
-        Hturno = prompt ("¿En que hoario te gustaria el turno?")
+        Hturno = prompt ("¿En que hoario te gustaria el turno?");
     
         let costoturn = parseInt(prompt("¿Cuanto te costo el turno?"));
         
@@ -32,7 +31,7 @@ boton.addEventListener("click",()=>{
         
         document.body.append ( " Guardado con exito el turno de " + Nturno + " el dia " + TurnosDisp + "a la hora " + Hturno + " Muchas gracias!")
         
-        Nturno = prompt("Una vez registrado el turno escribir salir")
+        salir = prompt("Una vez registrado el turno escribir salir")
     }
 
 });
